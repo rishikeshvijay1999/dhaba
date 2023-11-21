@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RV Dhaba</title>
+</head>
+<body>
+    <header>
+        <h1>RV Dhaba</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Reach</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to RV Dhaba</h2><br>
+        <img src="images\dhaba.jpg">
+        
+        <p>Foodies!!!!! <br> Come here and have delicious food served with a smile!</p>
+    </section>
+
+
+    <section id="about">
+        <h2>About Us</h2> <br>
+        <p>One of the Dhaba Restaurants promising you and your family one of the best dhaba experiences is RV Dhaba in Castle Hills, Hyderabad. We are a passionate team dedicated to providing the best dining experience. The dhaba was established in the 2020 and is renowned for offering various services. Some of the services that you can find here are Home Delivery , Dine-in. We are known for providing best services without customer dissatisfaction. Just provide us with your mobile number, we will serve you without any delay.
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div id="menu-list">
+        
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Reach Us</h2><br>
+        <p><b>Address:</b>RV Dhaba,
+            Castle Hills, Road No. 1,
+            Masab Tank, Hyderabad,
+            Telangana-500057, India.</p>
+        <p><b>Email:</b> contact@rvdhaba.com</p>
+        <p><b>Call:</b> 040 2329 4000</p>
+        <p>Service available from 12pm to 4:30 am</p>
+        <p>Contact us for Reservation and Home Delivery.</p>
+    </section>
+
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <label for="dish">Select the Dishes:</label>
+
+           <select name="dish" id="dish">
+             <option value="#">Select Option</option>
+             <option value="Palak Paneer">Palak paneer</option>
+             <option value="Butter Naan">Butter Naan</option>
+             <option value="Tomato Curry">Tomato curry</option>
+             <option value="Plain Rice">Plain rice</option>
+             <option value="Chana Masala">Chana Masala</option>
+             <option value="Dum Gobi Masala">Dum Gobi Masala</option>
+             <option value="Kadai Veg. Masala">Kadai Veg Masala</option>
+             <option value="Tandoori Roti">Tandoori Roti</option>
+             <option value="Plain Parata">Plain Parata</option>
+             <option value="Egg Curry">Egg Curry</option>
+             <option value="Malai Kofta">Malai Kofta</option>
+           </select>
+           <br>
+           <br>
+           <select name="dish1" id="dish1">
+            <option value="#">Select Option</option>
+            <option value="Palak Paneer">Palak paneer</option>
+            <option value="Butter Naan">Butter Naan</option>
+            <option value="Tomato Curry">Tomato curry</option>
+            <option value="Plain Rice">Plain rice</option>
+            <option value="Chana Masala">Chana Masala</option>
+            <option value="Dum Gobi Masala">Dum Gobi Masala</option>
+            <option value="Kadai Veg. Masala">Kadai Veg Masala</option>
+            <option value="Tandoori Roti">Tandoori Roti</option>
+            <option value="Plain Parata">Plain Parata</option>
+            <option value="Egg Curry">Egg Curry</option>
+            <option value="Malai Kofta">Malai Kofta</option>
+          </select>
+            <label for="date">Select a Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Select a Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+            <button type="button" id="reservation-button">Make Reservation</button>
+        </form>
+    </section>
+
+ 
+    <script src="script.js"></script>
+</body>
+<footer>
+    &copy; 2023 Rishikesh Vijay
+</footer>
+</html>
